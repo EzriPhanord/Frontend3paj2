@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+  --bg-color: #343d4b;
+  --bg-color--card: #222831;
+
+  --main-text-color: #ffffff;
+
+  --main-border-radius: 25px;
+  --secondary-border-radius: 15px;
+  --width:80%;
+}
+body{
+    background-color:var(--bg-color);
+    font-family: "Times New Roman", Times, serif;
+   
+
+  }
+.box1{
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-image: var(--gradient);
+    color: var(--bg-color);
+    font-weight: 100;
+    width:60%;
+    max-width:60%;
+    height: 100%;
+    text-size-adjust: 5px;
+    position: relative;
+    right: 14px;
+    
+}
+.box2{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg{
+  xmlns="http://www.w3.org/2000/svg"
+            x:0px;
+            y:1px;
+            width:54px;
+            height:60px;
+            viewBox:0 0 24 30:
+}
+.box{
+  margin: 90px;
+  padding: 10px;
+  color: var(--main-text-color);
+  width: var(--width);
+  max-width: 30%;
+  max-height: 80%;
+  border: none;
+  border-radius: 0 0px 0px 0;
+  position: relative;
+  right: 100px;
+    
+
+}
+.fs{
+  border: none;
+}
+.boutton{
+  margin: 90px;
+  padding: 10px;
+    
+    background-color:transparent;
+    color: var(--main-text-color);
+    width: var(--width);
+    max-width: 30%;
+    max-height: 80%;
+    border: none;
+    border-radius: 0 00px 0px 0;
+    color: var(--bg-color);
+    position: relative;
+     left: 30%;
+     bottom:5cm;
+     }
+     .b1{
+      font-family: "Times New Roman", Times, serif;
+      color: var(--bg-color);
+      border: none;
+      margin-bottom: 1rem;
+        border-radius: 20px;
+        padding: 0.55rem;
+        background:var(--gradient);
+        font-weight: 600;
+        cursor: pointer;
+        line-height: initial;
+        width:80px;
+        height: 30px;
+     }
+     .b2{
+      font-family: "Times New Roman", Times, serif;
+      border: none;
+      margin-bottom: 1rem;
+        border-radius: 20px;
+        padding: 0.55rem;
+        background:var(--gradient);;
+        color: var(--bg-color);
+        font-weight: 600;
+        cursor: pointer;
+        line-height: initial;
+        width:80px;
+        height: 30px;
+     }
